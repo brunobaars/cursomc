@@ -18,7 +18,7 @@ public class CategoriaResource {
 	@Autowired
 	private CategoriaService service;
 	
-//informando que a requisição passará o número de id
+//informando que a requisição passará na URL depois do /categorias o número do id.
 	@RequestMapping(value="/{id}", method=RequestMethod.GET)
 	
 //@PathVariable informa que o id virá na URL
